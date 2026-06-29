@@ -1,0 +1,26 @@
+project:
+  type: website
+
+website:
+  title: "SDS316: Data of the US Criminal Legal System"
+  description: "Applicaiton Domain (context depth) class that focuses on understanding and working with data related to crime, policing, incarceration, detention, and other aspects of the Prison Industrial Complex (PIC) in the US"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: syllabus.qmd
+        text: Syllabus
+      - href: schedule.qmd
+        text: Schedule
+      - href: projects.qmd
+        text: Projects
+      - href: lectures.qmd
+        text: Selected Lectures
+
+format:
+  html:
+    theme: cosmo # Quarto comes with many built-in themes (bootswatch)
+    toc: true
+
+execute:
+  freeze: auto
